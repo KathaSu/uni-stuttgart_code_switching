@@ -11,9 +11,4 @@ for ent in doc.ents:
 
 for ent in doc2.ents:
     print(ent.text, ent.label_)
-
-for ent in doc2.ents:
-    print(ent.text, ent.label_)
-
-
-#git testing...
+    
