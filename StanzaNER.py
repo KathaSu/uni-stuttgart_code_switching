@@ -1,6 +1,5 @@
 import stanza
 
-
 class StanzaNER():
 
     def __init__(self, inputfile, outputfile):
@@ -29,5 +28,5 @@ class StanzaNER():
                 tweet += " " + line[4] + " "
 
 
-StanzaNER("EsEn_NER\calcs_dev.tsv", "output.txt")
+StanzaNER("EsEn_NER\calcs_dev.tsv", "output_stanza.txt")
 
